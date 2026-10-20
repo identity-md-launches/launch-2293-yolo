@@ -7,6 +7,7 @@ import {IERC20Errors} from "@openzeppelin/contracts/interfaces/draft-IERC6093.so
 import {Yolo} from "../src/Yolo.sol";
 import {FactoryHarness} from "./helpers/FactoryHarness.sol";
 
+/// forge-config: default.fuzz.runs = 1000
 contract YoloTest is Test {
     uint256 internal constant SUPPLY = 1_000_000_000_000_000_000_000_000_000;
 
